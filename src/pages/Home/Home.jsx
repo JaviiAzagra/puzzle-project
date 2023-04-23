@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.scss";
-import Register from "../Register/Register";
 
 const Home = () => {
   return (
