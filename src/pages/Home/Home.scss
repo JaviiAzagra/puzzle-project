@@ -6,7 +6,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
+.home {
   /* background: linear-gradient(rgb(255, 255, 255), 50%, rgb(248, 194, 240)); */
   /* background-image: url("./pexels-anete-lusina-6331082.jpg"); */
   background-image: url("../../../public/assets/pexels-henry-&-co-1939485.jpg");
@@ -17,6 +17,7 @@ body {
 
 .container {
   padding-top: 50px;
+  padding-bottom: 54px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -54,7 +55,7 @@ body {
       font-size: 13px;
     }
 
-    button {
+    a {
       border-radius: 30px;
       border: 1px solid rgb(0, 0, 0);
       background: none;
@@ -63,9 +64,13 @@ body {
       color: rgb(0, 0, 0);
       font-size: 16px;
       font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
     }
 
-    button:hover {
+    a:hover {
       background: black;
       color: white;
       border: none;

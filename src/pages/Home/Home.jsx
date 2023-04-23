@@ -1,9 +1,10 @@
 import React from "react";
 import "./Home.scss";
+import Register from "../Register/Register";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <div className="container">
         <div className="container--logo">
           <img
@@ -19,10 +20,10 @@ const Home = () => {
         </div>
 
         <div class="container--buttons">
-          <button className="container--button__register">
+          <a href="/register" className="container--button__register">
             Create Account
-          </button>
-          <button className="container--button__login">Login</button>
+          </a>
+          <a className="container--button__login">Login</a>
           <p>
             By tapping Create Account or Sign In, you agree to our Terms. Learn
             how we process your data in our Privacy Policy and Cookies Policy
