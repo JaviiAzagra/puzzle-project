@@ -1,9 +1,9 @@
-.register{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 
 h2 {
@@ -20,14 +20,13 @@ label {
   font-weight: bold;
 }
 
-input[type="text"],
 input[type="email"],
 input[type="password"] {
-  width: 300px;
-  padding: 10px;
-  border-radius: 16px;
-  background: none;
-  margin-bottom: 10px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 16px;
+    background: none;
+    margin-bottom: 10px;
 }
 
 button[type="submit"] {

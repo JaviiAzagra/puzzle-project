@@ -22,7 +22,7 @@ const Home = () => {
           <a href="/register" className="container--button__register">
             Create Account
           </a>
-          <a className="container--button__login">Login</a>
+          <a href="/login" className="container--button__login">Login</a>
           <p>
             By tapping Create Account or Sign In, you agree to our Terms. Learn
             how we process your data in our Privacy Policy and Cookies Policy
