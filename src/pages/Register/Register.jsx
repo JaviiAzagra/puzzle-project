@@ -95,7 +95,13 @@ const Register = ({ showLogin, setShowLogin }) => {
               <input
                 type="password"
                 placeholder="Password"
-                {...register("password")}
+                {...register("password", {
+                  required: "Introduce tu contraseña",
+                  minLength: {
+                    value: 8,
+                    message: "Introduce mínimo 8 caracteres",
+                  },
+                })}
                 name="password"
               />
             </div>
