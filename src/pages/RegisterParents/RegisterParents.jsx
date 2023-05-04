@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Login from "../Login/Login";
 
-const Register = ({ showLogin, setShowLogin }) => {
+const RegisterParents = ({ showLogin, setShowLogin }) => {
   const {
     register,
     handleSubmit,
@@ -72,4 +72,4 @@ const Register = ({ showLogin, setShowLogin }) => {
   );
 };
 
-export default Register;
+export default RegisterParents;

@@ -1,7 +1,6 @@
-import React from "react";
-import "./Home.scss";
+import React from 'react'
 
-const Home = () => {
+const Select = () => {
   return (
     <div className="home">
       <div className="container">
@@ -19,10 +18,10 @@ const Home = () => {
         </div>
 
         <div class="container--buttons">
-          <a href="/select" className="container--button__register">
-            Create Account
+          <a href="/register" className="container--button__register">
+            Users
           </a>
-          <a href="/login" className="container--button__login">Login</a>
+          <a href="/login" className="container--button__login">Parents</a>
           <p>
             By tapping Create Account or Sign In, you agree to our Terms. Learn
             how we process your data in our Privacy Policy and Cookies Policy
@@ -30,7 +29,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Select
